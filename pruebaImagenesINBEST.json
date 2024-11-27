@@ -1,0 +1,16 @@
+{
+  "sitioWeb":"ImagenesPruebaINBEST",
+  "lenguajes": "Javascript",
+  "login":{
+    "username":"admin",
+"password":"1234"},
+"funciones":{
+    "subirImagen":"",
+    "grises":"",
+    "brillo":"",
+    "pixeles":"",
+    "guardarImagen":"",
+    "nuevaImagen":"",
+    "mostrarImagenes":""
+}
+}
