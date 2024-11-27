@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="Style.css">
+
+  <title>Imagenes Prueba INBEST</title>
+
+</head>
+
+<body>
+  <div>
+    <h2>Modifique la imagen</h2>
+    <input type="file" id="input-imagen" accept="image/*">
+    <br>
+    <div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <br>
+    <div class="main-botons">
+      <label for="tamano-pixeles">Modificar Imagen:</label>
+      <button id="boton-grises">B/N</button>
+      <br>
+      <br>
+      <input type="range" id="brillo" min="-100" max="100" value="0"><button id="boton-brillo">Brillo</button>
+      <br>
+      <br>
+      <label for="tamano-pixeles">Tamaño de píxeles:</label>
+      <input type="number" id="tamano-pixeles" value="10">
+      <button id="boton-cambiar-tamano">Cambiar tamaño de píxeles</button>
+    </div>
+    <br>
+    <button id="boton-guardar">Guardar imagen</button>
+    <button id="boton-nueva">Nueva imagen</button>
+
+    <h2>Imagenes Modificadas</h2>
+
+    <div id="imageContainer" class="image-container"></div>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
